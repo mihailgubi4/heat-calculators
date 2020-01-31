@@ -1,0 +1,11 @@
+{
+  "name": "heat-calculators",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0"
+  }
+}

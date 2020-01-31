@@ -1,2 +1,7 @@
 # heat-calculators
-2 ways of heat calculation on JS
+
+To run the app do the following:
+
+run _`npm install`_ in terminal
+
+run command `node -r @babel/register src/index.js`
