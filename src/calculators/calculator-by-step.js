@@ -1,6 +1,6 @@
-import { ABSOLUTE_ZERO, materials } from "../dataSource/config";
+import { ABSOLUTE_ZERO, materials } from "../data-source/config";
 
-export default function materialHeatCalculatorWhile (initialTemperature, material) {
+export default function materialHeatCalculatorStep (initialTemperature, material) {
     let tCurrent = initialTemperature;
 
     function getPhase (temperature, phases) {

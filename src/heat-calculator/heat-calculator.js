@@ -1,4 +1,4 @@
-import { ABSOLUTE_ZERO, materials } from "../dataSource/config";
+import { ABSOLUTE_ZERO, materials } from "../data-source/config";
 
 export default function heatCalculator (material, initialTemperature = 0, calculator = () => {}) {
     const errors = [];

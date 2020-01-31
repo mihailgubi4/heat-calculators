@@ -1,10 +1,10 @@
 import heatCalculator from "./heat-calculator/heat-calculator";
-import materialHeatCalculatorWhile from "./calculators/calculator-with-cycle";
-import materialHeatCalculatorPhases from "./calculators/calculator-by-phases";
+import materialHeatCalculatorStep from "./calculators/calculator-by-step";
+import materialHeatCalculatorPhase from "./calculators/calculator-by-phase";
 
 const calculatorModes = {
-    'cycle-mode': materialHeatCalculatorWhile,
-    'by-phase-mode': materialHeatCalculatorPhases
+    'by-step-mode': materialHeatCalculatorStep,
+    'by-phase-mode': materialHeatCalculatorPhase
 }
 ;
 Object.keys(calculatorModes).forEach((mode) => {
